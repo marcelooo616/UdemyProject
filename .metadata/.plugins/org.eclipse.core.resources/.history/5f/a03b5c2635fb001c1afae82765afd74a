@@ -18,9 +18,9 @@ public class Program {
 		
 		//System.out.print("Quer fazer um deposito?(s/n): ");
 		//char dep = sc.next().charAt(0);
-		
+		System.out.println("Saques tem uma taxa de R$5.00");
 		System.out.println("1 - DEPOSITO");
-		System.out.println("2 - SAQUE + Taxa = R$ 5,00");
+		System.out.println("2 - SAQUE");
 		System.out.println("3 - SAIR");
 		System.out.print("DIGITE A OPÇÃO: ");
 		Conta conta = new Conta(numero, nome);
@@ -35,9 +35,9 @@ public class Program {
 			conta.deposito(deposito);
 			System.out.println(conta);
 			
-			
+			System.out.println("Saques tem uma taxa de R$5.00");
 			System.out.println("1 - DEPOSITO");
-			System.out.println("2 - SAQUE + Taxa = R$ 5,00");
+			System.out.println("2 - SAQUE");
 			System.out.println("3 - SAIR");
 			System.out.print("DIGITE A OPÇÃO: ");			
 			opcao = sc.nextInt();
