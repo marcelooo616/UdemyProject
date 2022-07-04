@@ -22,13 +22,17 @@ public class Conta {
 		return number;
 	}
 
-	
+	public void setNumber(int number) {
+		this.number = number;
+	}
 
 	public String getNomeConta() {
 		return nomeConta;
 	}
 
-	
+	public void setNomeConta(String nomeConta) {
+		this.nomeConta = nomeConta;
+	}
 
 	public double getSaldo() {
 		return saldo;
