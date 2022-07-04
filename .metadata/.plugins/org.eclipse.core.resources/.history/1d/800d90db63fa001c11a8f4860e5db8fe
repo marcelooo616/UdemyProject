@@ -1,0 +1,26 @@
+package aplication;
+
+import java.util.Scanner;
+
+import entities.conversor;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		//conversor dolar = new conversor();
+		
+		System.out.println("Conversor Dolar");
+		System.out.print("Digite a cotação do dolar atual: ");
+		conversor.cotacaoDolar = sc.nextDouble();
+		System.out.print("Digite o valor em dolar: ");
+		conversor.Dolar = sc.nextDouble();
+		
+		double Real = conversor.Converter();
+		
+		System.out.println(Real);
+
+	}
+
+}

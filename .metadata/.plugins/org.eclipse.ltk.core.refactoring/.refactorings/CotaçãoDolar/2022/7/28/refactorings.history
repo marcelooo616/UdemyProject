@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;entities.conversor.Converter(...).convert2&apos; in &apos;entities.conversor.Converter(...)&apos; to field&#x0D;&#x0A;- Original project: &apos;CotaçãoDolar&apos;&#x0D;&#x0A;- Original element: &apos;entities.conversor.Converter(...).convert2&apos;&#x0D;&#x0A;- Field name: &apos;convert2&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;convert2&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;entities{conversor.java" name="convert2" selection="294 24" stamp="1656808758714" static="true" version="1.0" visibility="2"/>
+</session>

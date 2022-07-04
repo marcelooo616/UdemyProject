@@ -1,0 +1,17 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class execicio_laco_condicional5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+	    double HotDog = 4.00;
+	    System.out.println(HotDog);
+	    
+
+	}
+
+}

@@ -1,0 +1,30 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class execicio_laco_condicional5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+	    String menu;
+	    
+	    
+	    int opcao;
+	    
+	    double HotDog = 4.00;
+	    double XSalada = 4.00;
+	    double XBacon = 4.00;
+	    double TorradaSimples = 4.00;
+	    double dc = 4.00;
+	    System.out.println("escolha ");
+	    opcao=sc.nextInt();
+	    
+	    if (opcao == 1) {
+	    	System.out.println("dsdf");
+	    	
+	    }
+
+	}
+
+}

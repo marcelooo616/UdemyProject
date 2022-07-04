@@ -1,0 +1,56 @@
+package Application;
+import java.util.Scanner;
+
+import entites.Triangle;
+
+public class CalculoAreaLadosTriangulo {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Triangle x, y;
+		x = new Triangle();
+		y = new Triangle();
+		
+		System.out.println("Entre com os lados do trinagulos 'x' respectivamente A B e C: ");
+		
+		 x.a = sc.nextDouble();
+		 x.b = sc.nextDouble();
+		 x.c = sc.nextDouble();
+		
+		System.out.println("Entre com os lados do trinagulos 'y' respectivamente A B e C: ");
+		
+		y.a = sc.nextDouble();
+		y.b = sc.nextDouble();
+		y.c = sc.nextDouble();
+		
+		
+			
+			
+
+		
+		
+		
+		/*px = (xA+xB+xC)/2;
+	
+		ax = px * (px - xA) * ( px - xB) * (px - xC);
+		ax = Math.sqrt(ax);
+
+		py = (yA+yB+yC)/2;
+		
+		ay = Math.sqrt (py * (py - yA) * ( py - yB) * (py - yC));
+		
+		
+		System.out.printf("Area do triangulo X : %.4f" , ax );
+		System.out.printf("\nArea do triangulo Y : %.4f" , ay);
+		
+		if (ax > ay) {
+			System.out.println("\nMaior area e: X");
+		}else {
+			System.out.println("\nMaior area e: Y");
+		}*/
+
+	}
+
+}
